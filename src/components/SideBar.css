@@ -1,0 +1,64 @@
+.sideBarContent {
+  height: 2000px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 5% 1%;
+  background-color: #2196f3;
+}
+
+.sideBarContainer {
+  border-radius: 30px;
+  background-color: #f5f5f5;
+  width: 340px;
+  text-align: inherit;
+  padding: 1%;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+}
+.sideCategoty {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+  margin: 2%;
+}
+.sideCategoty:hover {
+  color: red;
+}
+.expert-card {
+  background-color: white;
+  width: auto;
+  height: 50px;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.expert-card-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.expert-card-content {
+  display: flex;
+}
+
+.expert-card-content img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 5px;
+  object-fit: cover;
+}
+
+.expert-card-content p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.expert-phone {
+  font-size: 12px;
+}
